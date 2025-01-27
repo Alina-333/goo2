@@ -1,4 +1,6 @@
 .booking {
+  margin: 0 auto;
+  width: 1440px;
   padding-top: 80px;
   font-weight: 700;
   color: #fff;
@@ -64,7 +66,15 @@
   border-radius: 8px;
   width: 250px;
 }
-
+.rooms__item:hover {
+  background-color: #eadeed;
+  border-color: #840aa3;
+}
+.rooms__item:active {
+  background-color: #6c0287;
+  color: #fff;
+  border-color: #fff;
+}
 /* Собери набор развлечений */
 .booking__container-small {
   /* width: 980px; */
@@ -196,4 +206,11 @@
   padding: 16px 50px;
   border-radius: 10px;
 
+}
+.book:hover, .book:active {
+  background-color: #eadeed;
+}
+.book:focus {
+  background-color: #fff;
+  border-color: #6c0287;
 }
