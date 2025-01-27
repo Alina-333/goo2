@@ -216,6 +216,7 @@ body {
   margin: 0;
   font: 400 30px Arial;
   text-align: center;
+  white-space: pre-line;
 }
 
 .hero-equipment {
@@ -254,11 +255,15 @@ body {
 }
 
 .fun-heading {
+  white-space: pre-line;
   margin: 0;
   font: 700 40px/50px Arial;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 48px;
+}
+.audio {
+  white-space: pre-line;
 }
 
 .fun-essentials-container {
@@ -353,6 +358,7 @@ body {
 }
 
 .retro-title-style1 {
+  white-space: pre-line;
   margin: 0;
   font: 700 70px/80px Arial;
   text-align: center;
@@ -711,6 +717,7 @@ section {
 }
 
 .contacts-text-style {
+  white-space: pre-line;
   margin: 0;
   margin-left: 27px;
   font: 700 24px Arial;
