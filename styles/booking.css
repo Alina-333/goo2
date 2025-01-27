@@ -1,0 +1,199 @@
+.booking {
+  padding-top: 80px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+
+  background: var(--main-color);
+}
+
+.booking__title {
+  font-size: 40px;
+  line-height: 1.25;
+  text-transform: uppercase;
+
+  padding-bottom: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.booking__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1440px;
+  width: 1180px;
+}
+
+/* Rooms */
+.booking__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rooms {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 60px;
+
+  >legend {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16667;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+}
+
+.rooms__item {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33333;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+
+  padding: 7px 15px;
+  border-radius: 8px;
+  width: 250px;
+}
+
+/* Собери набор развлечений */
+.booking__container-small {
+  /* width: 980px; */
+  padding-left: 100px;
+  margin-bottom: 40px;
+}
+
+/* activities */
+.activities {
+  border: none;
+  margin-bottom: 60px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  >legend {
+    font-size: 24px;
+    line-height: 1.16667;
+    text-align: center;
+
+    margin-bottom: 40px;
+  }
+}
+
+.activity {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+
+  >legend {
+    font-size: 24px;
+    line-height: 1.16667;
+    text-align: left;
+
+    margin-bottom: 23px;
+  }
+}
+
+.activity__item {
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+
+  >input {
+    width: 27px;
+    height: 32px;
+    margin-right: 12px;
+  }
+}
+
+/* date */
+.date {
+  border: none;
+}
+
+.date__title {
+  font-size: 24px;
+  line-height: 1.16667;
+  margin-bottom: 38px;
+}
+
+.date__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap: 14px;
+}
+
+.date__item {
+  font-size: 14px;
+  line-height: 1.14286;
+  width: 100%;
+  text-align: left;
+
+  >input {
+    display: block;
+    width: 100%;
+    height: 52px;
+  }
+}
+
+.date__item-combo{
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 52px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 1em;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #211e1e;  
+
+  >svg{
+    fill: black;
+    width: 21px;
+    height: 15px;
+  }
+}
+
+.date__time{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.date__time .date__item-combo{
+  width: 134px;
+  width: 100%;
+}
+
+
+/* submit button */
+.book {
+  margin-top: calc(40px - 14px);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.27273;
+  text-transform: uppercase;
+  color: #6c0287;
+
+  padding: 16px 50px;
+  border-radius: 10px;
+
+}
