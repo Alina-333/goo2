@@ -11,3 +11,11 @@
 
 
 @import "./styles/booking.css";
+
+@import "rooms.css";
+
+@import "star.css";
+
+@import "west.css";
+
+@import "neon.css";

@@ -42,7 +42,7 @@ body {
 
 .menu-section {
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .menu-container {
@@ -69,6 +69,7 @@ body {
   font-size: 22px;
   line-height: 227%;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .menu__call {
@@ -77,7 +78,7 @@ body {
   font: 700 22px Arial;
   text-transform: uppercase;
   cursor: pointer;
-  border: 3px solid #cd06ff;
+  border: 3px solid #d0d0d0;
   border-radius: 10px;
   display: inline-flex;
   align-items: center;
@@ -402,11 +403,6 @@ ul {
   list-style: none;
 }
 
-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .title {
   font-family: "Arial", sans-serif;
   font-weight: 900;
@@ -472,9 +468,7 @@ section {
 }
 
 .block__about-image-container {
-  background-color: red;
   width: 600px;
-
   background-image: url("../img/onas.svg");
   background-repeat: no-repeat;
   background-size: cover;

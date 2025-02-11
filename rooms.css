@@ -1,0 +1,317 @@
+:root{
+    /* var(--main-color)  */
+    --main-color: #440F51;
+    --font-family: "Arial", sans-serif;
+  }
+  
+  html {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  body {
+    width: 1440px;
+    min-width: 320px;
+    min-height: 100px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #1B1A1B;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  .page__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .meniu-content {
+    box-sizing: border-box;
+    min-width: 1440px;
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+  }
+  
+  .logo-image {
+    height: 66px;
+    padding-right: 96px;
+  }
+  
+  .menu-nav-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-right: 96px;
+  }
+  .menu-link {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 227%;
+    text-transform: uppercase;
+  }
+  
+  .menu__call {
+    min-width: 280px;
+    height: 55px;
+    font: 700 22px Arial;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 3px solid #cd06ff;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1A1A;
+    color: #fff;
+  }
+  
+  .menu__call:hover, .menu__call:focus {
+    background-color: #6c0287;
+    border: #6c0287;
+    transition: transform 200ms linear;
+  }
+  .menu__call:active {
+    background: #640aa3;
+    border: #640aa3;
+    transition: transform 200ms linear;
+  }
+  
+.what_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.back-button-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: 130px;
+}
+.horizontal-rule-with-text {
+  box-sizing: border-box;
+  display: block;
+
+}
+.back-button-text-style {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  color: #fff;
+}
+
+  .vibes_img {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: initial;
+    width: 1440px;
+    height: 750px;
+    background-image: url("./img/banner-vibes.svg");
+    margin-bottom: 100px;
+
+  }
+  .text_container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 108px;
+    margin-bottom: 100px;
+  }
+  .rooms_text {
+    white-space: pre-line;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+  }
+  .what_title {
+    text-align: center;
+    align-self: center;
+    padding-bottom: 40px;
+    margin: 0;
+    font: 700 40px Arial;
+    text-transform: uppercase;
+  }
+  .block_what {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 1180px;
+  }
+  .what-vibe_img {
+    width: 600px;
+    height: 424px;
+    background-image: url("./img/RETRO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .block_text {
+    position: relative;
+    left: 80px;
+    top: 120px;
+    width: 500px;
+    height: 155px;
+  }
+  
+  .what_text {
+    white-space: pre-line;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+  }
+  .block_other {
+    width: 1180px;
+    height: 319px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .other_container0 {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 229px;
+    grid-template-areas: "room_west0 room_wars0 room_neon0";
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .room_west0 {
+    list-style: none;
+    grid-area: room_west0 ;
+    transition: transform 200ms linear;
+    &:hover {
+      transform: scale(110%);
+    }
+  }
+  .room_wars0 {
+    list-style: none;
+    grid-area: room_wars0;
+    transition: transform 200ms linear;
+    &:hover {
+      transform: scale(110%);
+    }
+  }
+  .room_neon0 {
+    list-style: none;
+    grid-area: room_neon0;
+    transition: transform 200ms linear;
+    &:hover {
+      transform: scale(110%);
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .contacts-background-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    background: linear-gradient(180deg, rgba(27, 26, 27, 1) 0%, rgba(55, 10, 55, 1) 100%);
+  }
+  
+  .contacts-section1 {
+    min-width: 1182px;
+    padding-top: 55px;
+  }
+  
+  .contacts-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacts-title {
+    align-self: center;
+    margin: 0;
+    font: 700 40px Arial;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+  }
+  
+  .contacts-section-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 156px;
+  }
+  
+  .contacts-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 49px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .contacts-info-container1 {
+    align-items: flex-end;
+    margin-top: 10px;
+  }
+  
+  .contacts-info-container:first-child {
+    align-items: center;
+    margin-bottom: 49px;
+  }
+  
+  .contacts-display-style {
+    margin-left: 27px;
+    font: 700 24px Arial;
+  }
+  
+  .contacts-text-style {
+    white-space: pre-line;
+    margin: 0;
+    margin-left: 27px;
+    font: 700 24px Arial;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .designer-credit {
+    margin: 0;
+    font: 400 14px/16px Arial;
+  }
+  
+  .email-contact-info-style {
+    margin-top: 6px;
+    font: 400 14px/16px Arial;
+  }
