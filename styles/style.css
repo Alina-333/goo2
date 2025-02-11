@@ -731,3 +731,8 @@ ul {
   margin-top: 6px;
   font: 400 14px/16px Arial;
 }
+@media (min-width: 768) {
+  .hero-section {
+    width: 688px;
+  }
+}
