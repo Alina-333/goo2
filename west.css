@@ -107,6 +107,7 @@
 .horizontal-rule-with-text {
   box-sizing: border-box;
   display: block;
+  padding-bottom: 20px;
 
 }
 .back-button-text-style {
@@ -115,6 +116,8 @@
   font-size: 22px;
   line-height: 127%;
   color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
   .west_img {
