@@ -277,9 +277,9 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 49px;
     align-items: center;
-    margin-top: 10px;
+    margin: 0 auto;
+    padding-bottom: 11px;
   }
   
   .contacts-info-container1 {
@@ -289,12 +289,15 @@
   
   .contacts-info-container:first-child {
     align-items: center;
-    margin-bottom: 49px;
+    padding-bottom: 39px;
   }
   
   .contacts-display-style {
     margin-left: 27px;
     font: 700 24px Arial;
+  }
+  .image-container {
+    padding-top: 40px;
   }
   
   .contacts-text-style {
