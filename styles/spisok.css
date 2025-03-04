@@ -37,7 +37,17 @@
 }
 
 .element .questions__spisok-link:active {
+  background-image: url("../img/ZAKRIT2.svg");
+}
+
+.element .questions__spisok-link:active tab {
   background-image: url("../img/close1.png");
+}
+.element:nth-child(2n):hover .questions__spisok-link:hover {
+  background-image: url("../img/PLUSS.svg");
+}
+.element:nth-child(2n):active .questions__spisok-link:active {
+  background-image: url("../img/ZAKRIT1.svg");
 }
 
 .element:nth-child(1n) {
@@ -82,3 +92,15 @@
   height: 46px;
 } */
 
+@media (max-width:768px) {
+  .questions__spisok{
+    width: 688px;
+  }
+  .element:nth-child(1n) {
+    width: 688px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    padding: 20px 20px;
+  }
+}

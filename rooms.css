@@ -13,8 +13,7 @@
     box-sizing: inherit;
   }
   
-  body {
-    width: 1440px;
+  /* body {
     min-width: 320px;
     min-height: 100px;
     font-family: "Arial", sans-serif;
@@ -23,7 +22,8 @@
     background-color: #1B1A1B;
     color: #FFFFFF;
     margin: 0 auto;
-  }
+  } */
+
   .page__title {
     font-weight: 900;
     font-size: 150px;
@@ -116,6 +116,9 @@
   line-height: 127%;
   color: #fff;
 }
+.img_container {
+  padding-bottom: 100px;
+}
 
   .vibes_img {
     box-sizing: border-box;
@@ -128,7 +131,7 @@
     width: 1440px;
     height: 750px;
     background-image: url("./img/banner-vibes.svg");
-    margin-bottom: 100px;
+    margin: 0 auto;
 
   }
   .text_container {
@@ -247,7 +250,7 @@
   }
   
   .contacts-section1 {
-    min-width: 1182px;
+    width: 1182px;
     padding-top: 55px;
   }
   
@@ -319,3 +322,16 @@
     margin-top: 6px;
     font: 400 14px/16px Arial;
   }
+  @media (max-width: 768px) {
+    .contacts-section1 {
+        width: 688px;
+    }
+    .contacts-title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 150%;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+  }
+}

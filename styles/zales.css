@@ -26,9 +26,12 @@
 
 
 .zales-section{
+  margin-bottom: 100px;
+}
+
+.zales-container{
   width: 1180px;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .zales{
@@ -58,10 +61,13 @@
 
 .rest-zone {
   padding-top: 50px;
-  width: 1180px;
   height: 708px;
+  margin-bottom: 170px;
+}
+
+.rest-container{
+  width: 1180px;
   margin: 0 auto;
-  margin-bottom: 70px;
 }
 
 .rest-zone__list {
@@ -121,5 +127,61 @@
 
     font-size: 20px;
     font-weight: 700;
+  }
+}
+
+@media (max-width:768px) {
+  .rest-container {
+    width: 688px;
+    position: relative;
+    bottom: 250px;
+    margin-bottom: 30px;
+  }
+  /* .rest-zone__list {
+    width: 688px;
+    display: grid;
+    grid-template-columns: 334px 334px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:" a b"
+    "c d"
+    "e f";
+  } */
+  .rest-zone__list {
+    --cart-count:2;
+
+  }
+  .rest-zone__item {
+    max-width: 334px;
+    max-height: 200px;
+  }
+  .rest-zone__item__two {
+    max-width: 334px;
+    max-height: 200px;
+    top: 0;
+  }
+  .rest-zone__item__four {
+    max-width: 334px;
+    max-height: 200px;
+    top: 0;
+  }
+  .rest-zone__item {
+    &:hover {
+    transform: 0;
+    }
+}
+  .rest-zone__item__two, 
+  .rest-zone__item__four {
+    a {
+        margin-top: 150px;
+    }
+}
+  .zales-container {
+    width: 688px;
+    position: relative;
+    bottom: 230px;
+  }
+  .zales__item {
+    width: 335px;
+    height: 200px;
   }
 }
